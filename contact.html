@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Digital Creations Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tech Fusion</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="web-forms.html">Web Forms</a></li>
+                        <li><a href="button-styles.html">Button Styles</a></li>
+                        <li><a href="roblox-guis.html">Roblox GUIs</a></li>
+                        <li><a href="odc.html">Other Creations</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need support, please fill out the form below. We’d love to hear from you!</p>
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <span class="tooltip" id="name-tooltip">Please provide your full name.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <span class="tooltip" id="email-tooltip">Enter a valid email address (e.g., name@example.com).</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                    <span class="tooltip" id="message-tooltip">Feel free to share your thoughts, questions, or feedback!</span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 Tech Fusion. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
